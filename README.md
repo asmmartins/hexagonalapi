@@ -1,2 +1,2 @@
-# chainofresponsibility
-This project is an implementation of chain of responsibility design pattern.
+# Hexagonal architecture
+This project is an implementation of Hexagonal architecture.
