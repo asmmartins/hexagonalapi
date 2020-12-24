@@ -4,7 +4,7 @@ using Core.Domain.Shared;
 
 namespace Core.Domain.Veiculos
 {
-    public class Veiculo : IEntity
+    public class Veiculo : IRootAgregate
     {
         public Guid Id { get; private set; }
         public string Placa { get; private set; }
