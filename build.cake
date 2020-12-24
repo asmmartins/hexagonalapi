@@ -55,7 +55,8 @@ Task("Test")
     DotNetCoreTest("Core.sln", new DotNetCoreTestSettings
     {
         Configuration = configuration,
-        NoBuild = true
+        NoBuild = true,
+        Verbosity = DotNetCoreVerbosity.Normal
     });
 });
 
