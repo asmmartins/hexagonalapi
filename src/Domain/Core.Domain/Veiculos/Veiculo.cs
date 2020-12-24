@@ -23,6 +23,8 @@ namespace Core.Domain.Veiculos
                 Localizacao = localizacao
             };
 
+            veiculo.ValidateAndThrow(new CriarVeiculoValidator());
+
             return veiculo;
         }
     }
