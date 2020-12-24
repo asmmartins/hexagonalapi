@@ -18,6 +18,8 @@ namespace Core.Domain.Veiculos.Localizacoes
                 Longitude = longitude?.Trim()
             };
 
+            localizacao.ValidateAndThrow(new CriarLocalizacaoValidator());
+
             return localizacao;
         }
     }
