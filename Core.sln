@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8F0124A-DC8E-4985-B502-4DD798B40483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{780118B9-4FE1-43F2-82D8-61720650830A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Api", "src\api\Core.Api\Core.Api.csproj", "{48E61B15-CFF7-4814-BF89-21E16858894C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Debug|x64.Build.0 = Debug|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Debug|x86.Build.0 = Debug|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Release|x64.ActiveCfg = Release|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Release|x64.Build.0 = Release|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Release|x86.ActiveCfg = Release|Any CPU
+		{48E61B15-CFF7-4814-BF89-21E16858894C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{780118B9-4FE1-43F2-82D8-61720650830A} = {A8F0124A-DC8E-4985-B502-4DD798B40483}
+		{48E61B15-CFF7-4814-BF89-21E16858894C} = {780118B9-4FE1-43F2-82D8-61720650830A}
+	EndGlobalSection
+EndGlobal
