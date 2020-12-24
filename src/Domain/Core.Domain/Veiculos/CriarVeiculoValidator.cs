@@ -2,7 +2,7 @@ using FluentValidation;
 
 namespace Core.Domain.Veiculos
 {
-    public class CriarVeiculoValidator : AbstractValidator<Veiculo> 
+    internal class CriarVeiculoValidator : AbstractValidator<Veiculo> 
     {
         public CriarVeiculoValidator() 
         {

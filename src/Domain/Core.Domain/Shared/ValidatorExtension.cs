@@ -13,7 +13,7 @@ namespace Core.Domain.Shared
             {
                 foreach (var failure in results.Errors) 
                 {
-                    throw new ArgumentException($"{failure.ErrorMessage}");
+                    throw new DomainException($"{failure.ErrorMessage}");
                 }
             }
         }        
