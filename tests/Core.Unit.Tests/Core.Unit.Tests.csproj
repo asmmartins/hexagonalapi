@@ -17,6 +17,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="AutoFixture" Version="4.15.0" />    
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.15.0" />
+    <PackageReference Include="Moq" Version="4.15.2" />
+    <PackageReference Include="AutoFixture.AutoMoq" Version="4.15.0" />    
   </ItemGroup>
 
   <ItemGroup>

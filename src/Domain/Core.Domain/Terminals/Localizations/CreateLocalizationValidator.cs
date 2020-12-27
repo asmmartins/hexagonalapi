@@ -1,10 +1,10 @@
 using FluentValidation;
 
-namespace Core.Domain.Veiculos.Localizacoes
+namespace Core.Domain.Terminals.Localizations
 {
-    internal class CriarLocalizacaoValidator : AbstractValidator<Localizacao> 
+    internal class CreateLocalizationValidator : AbstractValidator<Localization> 
     {
-        public CriarLocalizacaoValidator() 
+        public CreateLocalizationValidator() 
         {
             AddLatitudeRule();
             AddLongitudeRule();            
