@@ -1,0 +1,472 @@
+{
+  "Core.Commands.Abstractions.dll": {},
+  "Core.Api.dll": {
+    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Program.cs": {
+      "Core.Api.Program": {
+        "System.Void Core.Api.Program::Main(System.String[])": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Core.Api.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Startup.cs": {
+      "Core.Api.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Core.Api.Startup::get_Configuration()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Core.Api.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void Core.Api.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "29": 0,
+            "31": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 6,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Core.Api.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "12": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/WeatherForecast.cs": {
+      "Core.Api.WeatherForecast": {
+        "System.DateTime Core.Api.WeatherForecast::get_Date()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Core.Api.WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Core.Api.WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Core.Api.WeatherForecast::get_Summary()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Controllers/WeatherForecastController.cs": {
+      "Core.Api.Controllers.WeatherForecastController": {
+        "System.Collections.Generic.IEnumerable`1<Core.Api.WeatherForecast> Core.Api.Controllers.WeatherForecastController::Get()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void Core.Api.Controllers.WeatherForecastController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Core.Api.Controllers.WeatherForecastController>)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Core.Api.Controllers.WeatherForecastController::.cctor()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Configurations/Swagger/SwaggerConfiguration.cs": {
+      "Core.Api.Configurations.Swagger.SwaggerConfiguration": {
+        "System.Void Core.Api.Configurations.Swagger.SwaggerConfiguration::UseSwaggerUserInterface(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Configurations/Swagger/SwaggerDependecyInjection.cs": {
+      "Core.Api.Configurations.Swagger.SwaggerDependecyInjection": {
+        "System.Void Core.Api.Configurations.Swagger.SwaggerDependecyInjection::AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Core.Domain.dll": {
+    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Terminals/CreateTerminalValidator.cs": {
+      "Core.Domain.Terminals.CreateTerminalValidator": {
+        "System.Void Core.Domain.Terminals.CreateTerminalValidator::AddIdRule()": {
+          "Lines": {
+            "16": 3,
+            "17": 3,
+            "18": 3
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Terminals.CreateTerminalValidator::AddNameRule()": {
+          "Lines": {
+            "22": 3,
+            "23": 3,
+            "24": 3
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Terminals.CreateTerminalValidator::AddLocalizationRule()": {
+          "Lines": {
+            "28": 3,
+            "29": 3
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Terminals.CreateTerminalValidator::.ctor()": {
+          "Lines": {
+            "7": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Terminals/Terminal.cs": {
+      "Core.Domain.Terminals.Terminal": {
+        "System.Guid Core.Domain.Terminals.Terminal::get_Id()": {
+          "Lines": {
+            "9": 9
+          },
+          "Branches": []
+        },
+        "System.String Core.Domain.Terminals.Terminal::get_Name()": {
+          "Lines": {
+            "10": 10
+          },
+          "Branches": []
+        },
+        "Core.Domain.Terminals.Localizations.Localization Core.Domain.Terminals.Terminal::get_Localization()": {
+          "Lines": {
+            "11": 9
+          },
+          "Branches": []
+        },
+        "Core.Domain.Terminals.Terminal Core.Domain.Terminals.Terminal::Create(System.String,Core.Domain.Terminals.Localizations.Localization)": {
+          "Lines": {
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "24": 3,
+            "26": 1
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 17,
+              "Offset": 18,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Core.Domain.Terminals.Terminal::.ctor()": {
+          "Lines": {
+            "13": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Terminals/Localizations/CreateLocalizationValidator.cs": {
+      "Core.Domain.Terminals.Localizations.CreateLocalizationValidator": {
+        "System.Void Core.Domain.Terminals.Localizations.CreateLocalizationValidator::AddLatitudeRule()": {
+          "Lines": {
+            "15": 3,
+            "16": 3,
+            "17": 3
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Terminals.Localizations.CreateLocalizationValidator::AddLongitudeRule()": {
+          "Lines": {
+            "21": 3,
+            "22": 3,
+            "23": 3
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Terminals.Localizations.CreateLocalizationValidator::.ctor()": {
+          "Lines": {
+            "7": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Terminals/Localizations/Localization.cs": {
+      "Core.Domain.Terminals.Localizations.Localization": {
+        "System.String Core.Domain.Terminals.Localizations.Localization::get_Latitude()": {
+          "Lines": {
+            "8": 10
+          },
+          "Branches": []
+        },
+        "System.String Core.Domain.Terminals.Localizations.Localization::get_Longitude()": {
+          "Lines": {
+            "9": 10
+          },
+          "Branches": []
+        },
+        "Core.Domain.Terminals.Localizations.Localization Core.Domain.Terminals.Localizations.Localization::Create(System.String,System.String)": {
+          "Lines": {
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "21": 3,
+            "23": 1
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 7,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 15,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 25,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Core.Domain.Terminals.Localizations.Localization::.ctor()": {
+          "Lines": {
+            "11": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Shared/DomainException.cs": {
+      "Core.Domain.Shared.DomainException": {
+        "System.Void Core.Domain.Shared.DomainException::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Shared.DomainException::.ctor(System.String)": {
+          "Lines": {
+            "12": 4,
+            "14": 4
+          },
+          "Branches": []
+        },
+        "System.Void Core.Domain.Shared.DomainException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "17": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Shared/ValidatorExtension.cs": {
+      "Core.Domain.Shared.ValidatorExtension": {
+        "System.Void Core.Domain.Shared.ValidatorExtension::ValidateAndThrow(TClass,FluentValidation.AbstractValidator`1<TClass>)": {
+          "Lines": {
+            "10": 6,
+            "12": 6,
+            "14": 12,
+            "16": 4,
+            "19": 2
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 14,
+              "Offset": 62,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            },
+            {
+              "Line": 16,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 42,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 14,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 14,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Core.Querys.dll": {},
+  "Core.Infra.Ioc.dll": {
+    "/home/asimartins/Projects/hexagonalapi/src/Infra.Ioc/Core.Infra.Ioc/DependencyInjection.cs": {
+      "Core.Infra.Ioc.DependencyInjection": {
+        "System.Void Core.Infra.Ioc.DependencyInjection::AddServices()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Core.Querys.Abstractions.dll": {},
+  "Core.Commands.dll": {}
+}
