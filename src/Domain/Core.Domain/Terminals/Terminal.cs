@@ -17,7 +17,7 @@ namespace Core.Domain.Terminals
             var terminal = new Terminal()
             {
                 Id = Guid.NewGuid(),
-                Name = name?.Trim(),                
+                Name = name?.Trim().ToLowerInvariant(),                
                 Localization = localization
             };
 

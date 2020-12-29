@@ -188,14 +188,15 @@
           "Lines": {
             "22": 3,
             "23": 3,
-            "24": 3
+            "24": 3,
+            "25": 3
           },
           "Branches": []
         },
         "System.Void Core.Domain.Terminals.CreateTerminalValidator::AddLocalizationRule()": {
           "Lines": {
-            "28": 3,
-            "29": 3
+            "29": 3,
+            "30": 3
           },
           "Branches": []
         },
@@ -221,7 +222,7 @@
         },
         "System.String Core.Domain.Terminals.Terminal::get_Name()": {
           "Lines": {
-            "10": 10
+            "10": 13
           },
           "Branches": []
         },

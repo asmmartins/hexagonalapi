@@ -38,7 +38,7 @@ namespace Core.Unit.Tests.Domain.Terminals
 
             localization.Equals(secondLocalization).Should().BeTrue();
 
-            localization.GetHashCode().Should().BeGreaterThan(0);
+            localization.GetHashCode().Should().NotBe(0);
         }
 
         [Theory, AutoMoqDataAttribute]

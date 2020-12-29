@@ -21,7 +21,8 @@ namespace Core.Domain.Terminals
         {
             RuleFor(t => t.Name).NotNull();
             RuleFor(t => t.Name).NotEmpty();
-        }        
+            RuleFor(t => t.Name).Length(1, 50);
+        }      
 
         private void AddLocalizationRule()
         {
