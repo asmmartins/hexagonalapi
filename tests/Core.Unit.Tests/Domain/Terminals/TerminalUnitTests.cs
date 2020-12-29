@@ -30,6 +30,18 @@ namespace Core.Unit.Tests.Domain.Terminals
         }
 
         [Theory, AutoMoqDataAttribute]
+        public void ShouldCreateEqualsLocalization(string latitude, string longitude)
+        {
+            var localization = Localization.Create(latitude, longitude);
+
+            var secondLocalization = Localization.Create(latitude, longitude);
+
+            localization.Equals(secondLocalization).Should().BeTrue();
+
+            localization.GetHashCode().Should().BeGreaterThan(0);
+        }
+
+        [Theory, AutoMoqDataAttribute]
         public void ShouldntCreateTerminalWithoutLocalization(string name)
         {                                  
             Action act = () => Terminal.Create(name, null);
