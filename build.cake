@@ -10,9 +10,9 @@ const string PROJECT_DIRECTORY_QUERYS = "./src/Querys/" + PROJECT_NAME + ".Query
 const string PROJECT_DIRECTORY_INFRA_IOC = "./src/Infra.Ioc/" + PROJECT_NAME + ".InfraIoc";
 const string PROJECT_DIRECTORY_REPOSITORYS = "./src/Repositorys/" + PROJECT_NAME + ".Repositorys";
 const string TEST_PROJECT_DIRECTORY = "./tests/" + PROJECT_NAME;
-const string TEST_PROJECT_DIRECTORY_UNIT = TEST_PROJECT_DIRECTORY + ".Tests.Unit";
-const string TEST_PROJECT_DIRECTORY_INTEGRATION = TEST_PROJECT_DIRECTORY + ".Tests.Integration";
-const string TEST_PROJECT_DIRECTORY_API = TEST_PROJECT_DIRECTORY + ".Tests.Api";
+const string TEST_PROJECT_DIRECTORY_UNIT = TEST_PROJECT_DIRECTORY + ".Unit.Tests";
+const string TEST_PROJECT_DIRECTORY_INTEGRATION = TEST_PROJECT_DIRECTORY + "Integration.Tests";
+const string TEST_PROJECT_DIRECTORY_API = TEST_PROJECT_DIRECTORY + "Api.Tests";
 
 //////////////////////////////////////////////////////////////////////
 // Arguments
@@ -36,6 +36,7 @@ Task("Clean")
     CleanDirectory($"{PROJECT_DIRECTORY_QUERYS}.Abstractions/bin/{configuration}");
     CleanDirectory($"{PROJECT_DIRECTORY_REPOSITORYS}/bin/{configuration}");
     CleanDirectory($"{PROJECT_DIRECTORY_INFRA_IOC}/bin/{configuration}");    
+    CleanDirectory($"{TEST_PROJECT_DIRECTORY_UNIT}/bin/{configuration}");
 });
 
 Task("Build")
@@ -51,9 +52,10 @@ Task("Build")
 Task("Test")
     .IsDependentOn("Build")
     .Does(() =>
-{
+{   
     DotNetCoreTest("Core.sln", new DotNetCoreTestSettings
     {
+        ArgumentCustomization = args => args.Append("/p:CollectCoverage=true /p:CoverletOutput=coverage-result.json"),
         Configuration = configuration,
         NoBuild = true,
         Verbosity = DotNetCoreVerbosity.Normal

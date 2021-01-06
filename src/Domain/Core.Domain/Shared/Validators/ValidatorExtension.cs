@@ -1,7 +1,6 @@
-using System;
 using FluentValidation;
 
-namespace Core.Domain.Shared
+namespace Core.Domain.Shared.Validators
 {
     public static class ValidatorExtension
     {
