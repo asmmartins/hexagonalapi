@@ -29,9 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Ioc", "Infra.Ioc", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Infra.Ioc", "src\Infra.Ioc\Core.Infra.Ioc\Core.Infra.Ioc.csproj", "{1B8160E1-6F08-4179-8F74-0673DFB52BBF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorys", "Repositorys", "{96E866AA-D6C2-4A0A-B14A-B1F8D960675A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{96E866AA-D6C2-4A0A-B14A-B1F8D960675A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Repositorys", "src\Repositorys\Core.Repositorys\Core.Repositorys.csproj", "{014613CA-38DA-45A9-8AC9-5F21645AA8E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Repositories", "src\Repositories\Core.Repositories\Core.Repositories.csproj", "{014613CA-38DA-45A9-8AC9-5F21645AA8E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3192495F-CE49-4694-A697-B7689829E488}"
 EndProject

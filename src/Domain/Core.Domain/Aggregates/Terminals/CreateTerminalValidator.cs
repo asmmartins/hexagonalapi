@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Core.Domain.Terminals
+namespace Core.Domain.Aggregates.Terminals
 {
     internal class CreateTerminalValidator : AbstractValidator<Terminal> 
     {
@@ -12,21 +12,19 @@ namespace Core.Domain.Terminals
         }
 
         private void AddIdRule()
-        {
-            RuleFor(t => t.Id).NotNull();
+        {            
             RuleFor(t => t.Id).NotEmpty();
         }
 
         private void AddNameRule()
-        {
-            RuleFor(t => t.Name).NotNull();
+        {            
             RuleFor(t => t.Name).NotEmpty();
             RuleFor(t => t.Name).Length(1, 50);
         }      
 
         private void AddLocalizationRule()
         {
-            RuleFor(t => t.Localization).NotNull();            
+            RuleFor(t => t.Localization).NotNull();                       
         }
     }
 }

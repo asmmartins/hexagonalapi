@@ -1,6 +1,6 @@
 using System;
 
-namespace Core.Domain.Shared
+namespace Core.Domain.Shared.Models
 {
     public interface IEntity
     {        

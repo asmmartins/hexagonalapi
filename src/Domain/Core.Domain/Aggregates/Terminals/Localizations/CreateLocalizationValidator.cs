@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Core.Domain.Terminals.Localizations
+namespace Core.Domain.Aggregates.Terminals.Localizations
 {
     internal class CreateLocalizationValidator : AbstractValidator<Localization> 
     {
@@ -11,14 +11,12 @@ namespace Core.Domain.Terminals.Localizations
         }
 
         private void AddLatitudeRule()
-        {
-            RuleFor(l => l.Latitude).NotNull();
+        {            
             RuleFor(l => l.Latitude).NotEmpty();
         }
 
         private void AddLongitudeRule()
-        {
-            RuleFor(l => l.Longitude).NotNull();
+        {            
             RuleFor(l => l.Longitude).NotEmpty();
         }
     }

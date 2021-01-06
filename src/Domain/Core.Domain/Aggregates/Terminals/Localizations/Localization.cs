@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Core.Domain.Shared;
+﻿using System.Collections.Generic;
+using Core.Domain.Shared.ValueObjects;
+using Core.Domain.Shared.Validators;
 
-namespace Core.Domain.Terminals.Localizations
+namespace Core.Domain.Aggregates.Terminals.Localizations
 {
     public class Localization : ValueObject
     {

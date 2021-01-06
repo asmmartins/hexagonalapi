@@ -1,10 +1,11 @@
 ﻿using System;
-using Core.Domain.Terminals.Localizations;
-using Core.Domain.Shared;
+using Core.Domain.Aggregates.Terminals.Localizations;
+using Core.Domain.Shared.Models;
+using Core.Domain.Shared.Validators;
 
-namespace Core.Domain.Terminals
+namespace Core.Domain.Aggregates.Terminals
 {
-    public class Terminal : IRootAgregate
+    public class Terminal : IRootAggregate
     {
         public Guid Id { get; private set; }
         public string Name { get; private set; }        
