@@ -2,22 +2,22 @@ using FluentValidation;
 
 namespace Core.Domain.Aggregates.Terminals.Localizations
 {
-    internal class CreateLocalizationValidator : AbstractValidator<Localization> 
+    internal class CreateLocalizationValidator : AbstractValidator<Localization>
     {
-        public CreateLocalizationValidator() 
+        public CreateLocalizationValidator()
         {
             AddLatitudeRule();
-            AddLongitudeRule();            
+            AddLongitudeRule();
         }
 
         private void AddLatitudeRule()
-        {            
-            RuleFor(l => l.Latitude).NotEmpty();
+        {
+            RuleFor(l => l.Latitude).NotEmpty().WithMessage("'Latitude' must not be empty.");
         }
 
         private void AddLongitudeRule()
-        {            
-            RuleFor(l => l.Longitude).NotEmpty();
+        {
+            RuleFor(l => l.Longitude).NotEmpty().WithMessage("'Longitude' must not be empty.");
         }
     }
 }

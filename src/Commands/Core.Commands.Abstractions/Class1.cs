@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Core.Commands.Abstractions
+﻿namespace Core.Commands.Abstractions
 {
     public class Class1
     {

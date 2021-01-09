@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Core.Querys
+﻿namespace Core.Querys
 {
     public class Class1
     {

@@ -1,7 +1,6 @@
 {
-  "Core.Commands.Abstractions.dll": {},
   "Core.Api.dll": {
-    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Program.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Api\\Core.Api\\Program.cs": {
       "Core.Api.Program": {
         "System.Void Core.Api.Program::Main(System.String[])": {
           "Lines": {
@@ -22,7 +21,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Startup.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Api\\Core.Api\\Startup.cs": {
       "Core.Api.Startup": {
         "Microsoft.Extensions.Configuration.IConfiguration Core.Api.Startup::get_Configuration()": {
           "Lines": {
@@ -81,7 +80,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/WeatherForecast.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Api\\Core.Api\\WeatherForecast.cs": {
       "Core.Api.WeatherForecast": {
         "System.DateTime Core.Api.WeatherForecast::get_Date()": {
           "Lines": {
@@ -109,7 +108,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Controllers/WeatherForecastController.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Api\\Core.Api\\Controllers\\WeatherForecastController.cs": {
       "Core.Api.Controllers.WeatherForecastController": {
         "System.Collections.Generic.IEnumerable`1<Core.Api.WeatherForecast> Core.Api.Controllers.WeatherForecastController::Get()": {
           "Lines": {
@@ -143,7 +142,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Configurations/Swagger/SwaggerConfiguration.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Api\\Core.Api\\Configurations\\Swagger\\SwaggerConfiguration.cs": {
       "Core.Api.Configurations.Swagger.SwaggerConfiguration": {
         "System.Void Core.Api.Configurations.Swagger.SwaggerConfiguration::UseSwaggerUserInterface(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
           "Lines": {
@@ -161,7 +160,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Api/Core.Api/Configurations/Swagger/SwaggerDependecyInjection.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Api\\Core.Api\\Configurations\\Swagger\\SwaggerDependecyInjection.cs": {
       "Core.Api.Configurations.Swagger.SwaggerDependecyInjection": {
         "System.Void Core.Api.Configurations.Swagger.SwaggerDependecyInjection::AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
           "Lines": {
@@ -173,8 +172,10 @@
       }
     }
   },
+  "Core.Commands.Abstractions.dll": {},
+  "Core.Commands.dll": {},
   "Core.Domain.dll": {
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Shared/Exceptions/DomainException.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Shared\\Exceptions\\DomainException.cs": {
       "Core.Domain.Shared.DomainException": {
         "System.Void Core.Domain.Shared.DomainException::.ctor()": {
           "Lines": {
@@ -199,7 +200,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Shared/ValueObjects/ValueObject.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Shared\\ValueObjects\\ValueObject.cs": {
       "Core.Domain.Shared.ValueObjects.ValueObject": {
         "System.Int32 Core.Domain.Shared.ValueObjects.ValueObject::GetHashCode()": {
           "Lines": {
@@ -371,7 +372,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Shared/Validators/ValidatorExtension.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Shared\\Validators\\ValidatorExtension.cs": {
       "Core.Domain.Shared.Validators.ValidatorExtension": {
         "System.Void Core.Domain.Shared.Validators.ValidatorExtension::ValidateAndThrow(TClass,FluentValidation.AbstractValidator`1<TClass>)": {
           "Lines": {
@@ -434,7 +435,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Shared/Specifications/Specification.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Shared\\Specifications\\Specification.cs": {
       "Core.Domain.Shared.Specifications.Specification`1": {
         "System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>> Core.Domain.Shared.Specifications.Specification`1::get_Expression()": {
           "Lines": {
@@ -452,7 +453,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Aggregates/Terminals/CreateTerminalValidator.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Aggregates\\Terminals\\CreateTerminalValidator.cs": {
       "Core.Domain.Aggregates.Terminals.CreateTerminalValidator": {
         "System.Void Core.Domain.Aggregates.Terminals.CreateTerminalValidator::AddIdRule()": {
           "Lines": {
@@ -488,7 +489,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Aggregates/Terminals/Terminal.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Aggregates\\Terminals\\Terminal.cs": {
       "Core.Domain.Aggregates.Terminals.Terminal": {
         "System.Guid Core.Domain.Aggregates.Terminals.Terminal::get_Id()": {
           "Lines": {
@@ -546,7 +547,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Aggregates/Terminals/TerminalByIdSpecification.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Aggregates\\Terminals\\TerminalByIdSpecification.cs": {
       "Core.Domain.Aggregates.Terminals.TerminalByIdSpecification": {
         "System.Void Core.Domain.Aggregates.Terminals.TerminalByIdSpecification::.ctor(System.Guid)": {
           "Lines": {
@@ -557,7 +558,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Aggregates/Terminals/Localizations/CreateLocalizationValidator.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Aggregates\\Terminals\\Localizations\\CreateLocalizationValidator.cs": {
       "Core.Domain.Aggregates.Terminals.Localizations.CreateLocalizationValidator": {
         "System.Void Core.Domain.Aggregates.Terminals.Localizations.CreateLocalizationValidator::AddLatitudeRule()": {
           "Lines": {
@@ -584,7 +585,7 @@
         }
       }
     },
-    "/home/asimartins/Projects/hexagonalapi/src/Domain/Core.Domain/Aggregates/Terminals/Localizations/Localization.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Domain\\Core.Domain\\Aggregates\\Terminals\\Localizations\\Localization.cs": {
       "Core.Domain.Aggregates.Terminals.Localizations.Localization": {
         "System.String Core.Domain.Aggregates.Terminals.Localizations.Localization::get_Latitude()": {
           "Lines": {
@@ -662,13 +663,12 @@
       }
     }
   },
-  "Core.Querys.dll": {},
   "Core.Infra.Ioc.dll": {
-    "/home/asimartins/Projects/hexagonalapi/src/Infra.Ioc/Core.Infra.Ioc/DependencyInjection.cs": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Infra.Ioc\\Core.Infra.Ioc\\DependencyInjection.cs": {
       "Core.Infra.Ioc.DependencyInjection": {
         "System.Void Core.Infra.Ioc.DependencyInjection::AddServices()": {
           "Lines": {
-            "10": 0
+            "8": 0
           },
           "Branches": []
         }
@@ -676,5 +676,5 @@
     }
   },
   "Core.Querys.Abstractions.dll": {},
-  "Core.Commands.dll": {}
+  "Core.Querys.dll": {}
 }
