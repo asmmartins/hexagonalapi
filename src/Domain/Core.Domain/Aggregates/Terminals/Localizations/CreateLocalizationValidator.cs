@@ -12,12 +12,12 @@ namespace Core.Domain.Aggregates.Terminals.Localizations
 
         private void AddLatitudeRule()
         {
-            RuleFor(l => l.Latitude).NotEmpty();
+            RuleFor(l => l.Latitude).NotEmpty().WithMessage("'Latitude' must not be empty.");
         }
 
         private void AddLongitudeRule()
         {
-            RuleFor(l => l.Longitude).NotEmpty();
+            RuleFor(l => l.Longitude).NotEmpty().WithMessage("'Longitude' must not be empty.");
         }
     }
 }
