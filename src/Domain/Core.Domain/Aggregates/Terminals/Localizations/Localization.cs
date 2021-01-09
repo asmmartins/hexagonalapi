@@ -1,15 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using Core.Domain.Shared.Validators;
 using Core.Domain.Shared.ValueObjects;
-using Core.Domain.Shared.Validators;
+using System.Collections.Generic;
 
 namespace Core.Domain.Aggregates.Terminals.Localizations
 {
     public class Localization : ValueObject
     {
         public string Latitude { get; private set; }
-        public string Longitude { get; private set; }         
+        public string Longitude { get; private set; }
 
-        protected Localization() {}     
+        protected Localization() { }
 
         public static Localization Create(string latitude, string longitude)
         {
@@ -27,7 +27,7 @@ namespace Core.Domain.Aggregates.Terminals.Localizations
         protected override IEnumerable<object> GetEqualsProperties()
         {
             yield return Latitude;
-            yield return Longitude;            
-        }   
+            yield return Longitude;
+        }
     }
 }

@@ -1,5 +1,5 @@
-using Microsoft.EntityFrameworkCore;
 using Core.Domain.Aggregates.Terminals;
+using Microsoft.EntityFrameworkCore;
 
 namespace Core.Repositories.Shared
 {
@@ -13,7 +13,7 @@ namespace Core.Repositories.Shared
         public DbSet<Terminal> Terminal { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {            
+        {
         }
     }
 }

@@ -5,7 +5,7 @@ namespace Core.Domain.Shared.ValueObjects
 {
     public abstract class ValueObject
     {
-        protected abstract IEnumerable<object> GetEqualsProperties();        
+        protected abstract IEnumerable<object> GetEqualsProperties();
 
         public override int GetHashCode() => GetEqualsProperties().Select(x => x != null ? x.GetHashCode() : 0).Aggregate((x, y) => x ^ y);
 
