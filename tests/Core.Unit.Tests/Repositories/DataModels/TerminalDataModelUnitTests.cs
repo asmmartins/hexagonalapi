@@ -40,8 +40,7 @@ namespace Core.Unit.Tests.Repositories.DataModels
 
         [Theory, AutoMoqDataAttribute]
         public void ShouldMapperTerminalDataModelToDomainModel(TerminalDataModel terminalDataModel)
-        {
-                       
+        {                       
             var terminal = _mapper.Map<TerminalDataModel, Terminal>(terminalDataModel);
 
             terminal.Should().NotBeNull();
