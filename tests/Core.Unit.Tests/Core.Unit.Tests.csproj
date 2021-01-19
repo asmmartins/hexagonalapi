@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="coverlet.msbuild" Version="2.9.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -29,6 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Api\Core.Api\Core.Api.csproj" />
+    <ProjectReference Include="..\..\src\Repositories\Core.Repositories\Core.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

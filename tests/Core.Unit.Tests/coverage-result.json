@@ -666,9 +666,10 @@
   "Core.Infra.Ioc.dll": {
     "C:\\Projects\\shared\\hexagonalapi\\src\\Infra.Ioc\\Core.Infra.Ioc\\DependencyInjection.cs": {
       "Core.Infra.Ioc.DependencyInjection": {
-        "System.Void Core.Infra.Ioc.DependencyInjection::AddServices()": {
+        "System.Void Core.Infra.Ioc.DependencyInjection::AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
           "Lines": {
-            "8": 0
+            "10": 0,
+            "11": 0
           },
           "Branches": []
         }
@@ -676,5 +677,100 @@
     }
   },
   "Core.Querys.Abstractions.dll": {},
-  "Core.Querys.dll": {}
+  "Core.Querys.dll": {
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Querys\\Core.Querys\\DependencyInjection.cs": {
+      "Core.Querys.DependencyInjection": {
+        "System.Void Core.Querys.DependencyInjection::AddQueries(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Querys\\Core.Querys\\Exemple\\MariaDbExempleSqlQuery.cs": {
+      "Core.Querys.MariaDbExempleSqlQuery": {
+        "System.String Core.Querys.MariaDbExempleSqlQuery::get_Value()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Querys\\Core.Querys\\Exemple\\OracleDbExempleSqlQuery.cs": {
+      "Core.Querys.OracleDbExempleSqlQuery": {
+        "System.String Core.Querys.OracleDbExempleSqlQuery::get_Value()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\shared\\hexagonalapi\\src\\Querys\\Core.Querys\\Exemple\\SqlQueryContext\\ExempleSqlQueryContext.cs": {
+      "Core.Querys.Exemple.ExempleSqlQueryContext": {
+        "Core.Querys.Abstractions.Shared.ISqlQuery Core.Querys.Exemple.ExempleSqlQueryContext::GetSqlQuery()": {
+          "Lines": {
+            "18": 2
+          },
+          "Branches": []
+        },
+        "System.Void Core.Querys.Exemple.ExempleSqlQueryContext::SetSqlQuery()": {
+          "Lines": {
+            "22": 3,
+            "23": 3,
+            "24": 4,
+            "25": 4,
+            "26": 4,
+            "27": 3,
+            "28": 2
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 22,
+              "Offset": 28,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 41,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 41,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Core.Querys.Exemple.ExempleSqlQueryContext::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "13": 3,
+            "15": 3,
+            "16": 3
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
 }
